@@ -4,6 +4,7 @@ Ce projet est un générateur de mots de passe en ligne de commande écrit en Ru
 
 
 ## 🧐 Fonctionnalités principales : 
+<<<<<<< Adiallo315-patch-1
 - Génération de mots de passe aléatoires avec une longueur spécifiée.
 - Possibilité de générer plusieurs mots de passe à la fois.
 - Évaluation de la sécurité des mots de passe générés.
@@ -23,6 +24,10 @@ Ce projet est un générateur de mots de passe en ligne de commande écrit en Ru
 2. Accédez au répertoire du projet:
    ```sh
    cd generateur_mdp
+=======
+
+- Génération de mots de passe aléatoires
+>>>>>>> main
 
 3. Compilez le projet :
    ```sh
@@ -30,12 +35,30 @@ Ce projet est un générateur de mots de passe en ligne de commande écrit en Ru
     ```
 
 
+<<<<<<< Adiallo315-patch-1
   
 
+=======
+- Affichage et stockage 
+
+## Contenu
+- un dossier src dans lequel se trouve le main.rs, qui est  le corps de notre porgramme
+
+- un dossier git ignore dans lequel se trouve le dossier target
+  
+- un fichier Cargo.lock  est un fichier généré par Cargo, le gestionnaire de paquets et de builds pour Rust. Il est utilisé pour garantir que les dépendances d'un projet Rust sont déterministes et reproductibles.qui est le gestionnaire de paquets et de builds pour Rust.
+
+- un fichier Cargo.toml est un fichier de configuration utilisé par Cargo, le gestionnaire de paquets et de builds pour le langage de programmation Rust. Ce fichier définit les métadonnées du projet, les dépendances, les configurations de build, et d'autres paramètres importants pour le projet Rust.
+
+- un fichier README.md qui décris le repot et explique comment utiliser le programme
+
+- generated_password.txt est un fichier texte qui va stocker tous les mots passe qui vont être généré pas l'utilisateur
+>>>>>>> main
 
 
 ## 🛠️Utilisation
   
+<<<<<<< Adiallo315-patch-1
   Pour exécuter le générateur de mots de passe, utilisez la commande suivante :
   cargo run
 
@@ -56,4 +79,11 @@ Mot de passe 5: Mno345_+-
 
 Les mots de passe ont été sauvegardés dans le fichier passwords.txt
  ```
+=======
+copier le repot vers votre machine en local et déplacer vous dans le dossier puis lancez la commande ci-dessous:
+    
+```bash
+Cargo run
+```
+>>>>>>> main
 Attention : il est important d'avoir rust installé sur la machine 
