@@ -76,7 +76,4 @@ copier le repot vers votre machine en local et déplacer vous dans le dossier pu
 ```bash
 Cargo run
 ```
->>>>>>> main
-Attention : il est important d'avoir rust installé sur la machine 
-```
 Attention : il est important d'avoir rust installé sur la machine 
