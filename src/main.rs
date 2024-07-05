@@ -3,6 +3,7 @@ use std::fs::OpenOptions;
 use std::io::{self, Write};
 use chrono::Local;
 
+// func to generate password
 fn generate_password(length: usize, use_upper: bool, use_lower: bool, use_numbers: bool, use_symbols: bool) -> String {
     let mut charset = String::new();
 
@@ -31,6 +32,7 @@ fn generate_password(length: usize, use_upper: bool, use_lower: bool, use_number
     password
 }
 
+// func to evaluate password
 fn evaluate_password(password: &str) -> String {
     let length = password.len();
     let has_upper = password.chars().any(|c| c.is_uppercase());
@@ -70,6 +72,7 @@ fn evaluate_password(password: &str) -> String {
     }
 }
 
+// main function
 fn main() {
     println!("Bienvenue dans le générateur de mots de passe !");
     println!("Longueurs recommandées pour un mot de passe sécurisé :");
@@ -136,6 +139,7 @@ fn main() {
     }
 }
 
+// func to save passwords to file
 fn save_passwords_to_file(passwords: Vec<(String, String)>) {
     let file_name = "generated_passwords.txt";
     let now = Local::now();
