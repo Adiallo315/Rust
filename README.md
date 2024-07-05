@@ -70,8 +70,6 @@ Mot de passe 5: Mno345_+-
 
 Les mots de passe ont été sauvegardés dans le fichier passwords.txt
  ```
-=======
-copier le repot vers votre machine en local et déplacer vous dans le dossier puis lancez la commande ci-dessous:
     
 ```bash
 Cargo run
