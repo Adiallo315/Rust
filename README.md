@@ -114,6 +114,6 @@ dic.txt
 Password found: 123
 ```
 
-```bash
-Cargo run
-```
+
+Note: The program uses a dictionary file to crack MD5 hashed passwords. The dictionary file should contain a list of passwords, each on a new line.
+
